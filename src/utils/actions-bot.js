@@ -1,0 +1,28 @@
+const actionsBot = [
+   [{ text: 'Carnet de conducir', callback_data: 'consultar-carnet' }],
+   [{ text: 'Certificado de antecedentes penales', callback_data: 'certificado-de-antecedentes-penales' }],
+   [{ text: 'Certificado electrónico o digital', callback_data: 'Certificado electrónico o digital' }],
+   [{ text: 'Fe de vida', callback_data: 'Fe de vida' }],
+   [{ text: 'Legalización de documentos', callback_data: 'Legalización de documentos' }],
+   [{ text: 'Número de identidad de extranjeros', callback_data: 'Número de identidad de extranjeros' }],
+   [{ text: 'Número de identificación fiscal', callback_data: 'Número de identificación fiscal' }],
+   [{ text: 'Notaría-Consultas', callback_data: 'Notaría-Consultas' }],
+   [{ text: 'Notaría-Legitimación de firmas', callback_data: 'Notaría-Legitimación de firmas' }],
+   [{ text: 'Notaría-Escrituras notariales', callback_data: 'Notaría-Escrituras notariales' }],
+   [{ text: 'Pasaportes renovación y primera vez', callback_data: 'Pasaportesrenovación y primera vez' }],
+   [{ text: 'Consentimiento paternal pasaporte menor', callback_data: 'Consentimiento paternal pasaporte menor' }],
+   [{ text: 'Retirada de pasaportes', callback_data: 'Retirada de pasaportes' }],
+   [{ text: 'Presentación de instancias', callback_data: 'Presentación de instancias' }],
+   [{ text: 'Certificación DNI', callback_data: 'Registro Civil-Certificación DNI' }],
+   [{ text: 'Conservación nacionalidad española', callback_data: 'Conservación nacionalidad española' }],
+   [{ text: 'Defunciones', callback_data: 'Defunciones' }],
+   [{ text: 'Expedientes gubernativos', callback_data: 'Expedientes gubernativos' }],
+   [{ text: 'Matrimonios', callback_data: 'Matrimonios' }],
+   [{ text: 'Nacimientos', callback_data: 'Nacimientos' }],
+   [{ text: 'Retirada de documentos', callback_data: 'Retirada de documentos' }],
+   [{ text: 'Registro de Matrícula Consular-Altas', callback_data: 'Registro de Matrícula Consular-Altas' }],
+   [{ text: 'Servicio de asuntos sociales', callback_data: 'Servicio de asuntos sociales' }],
+   [{ text: 'Visados', callback_data: 'Visados' }],
+]
+
+module.exports = actionsBot
